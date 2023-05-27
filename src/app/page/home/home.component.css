@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  border: 1px solid red;
+  width: 100%;
+}
+.box-left {
+  display: flex;
+  border: 1px solid blue;
+}
+.box-right {
+  display: flex;
+  border: 1px solid green;
+  height: 100%;
+  width: 50%;
+}
+.logo-topo img {
+  width: 200px;
+  height: 200px;
+}

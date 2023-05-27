@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 1018px;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-content: stretch;
+  font-family: "Roboto", sans-serif;
+
+  background-image: linear-gradient(
+    to bottom,
+    #e09b3d,
+    #c74c4d,
+    #c21975,
+    #7024c4
+  );
+
+  /* background-color: #f7f6f6; */
+}
+.card-box {
+  /* border: #2b3df1 1px solid; */
+  width: 150%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+.topo {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 740px;
+  padding: 35px;
+  border: 1px solid #d3d1d1;
+  background: white;
+  border-radius: 46px;
+}
+.img-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+.img-logo svg {
+  display: flex;
+  margin-top: 60px;
+  width: 80px;
+  height: 80px;
+}
+.input-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text-input {
+  width: 100%;
+  height: 45px;
+  font-size: 12px;
+  display: flex;
+  margin-bottom: 14px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  padding: 0px 0px 0px 14px;
+  background-color: #f2f2f2;
+}
+
+.pws-input {
+  width: 100%;
+  height: 45px;
+  font-size: 12px;
+  display: flex;
+  margin-bottom: 14px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  padding: 0px 0px 0px 14px;
+  background-color: #f2f2f2;
+}
+
+.text-senha {
+  font-size: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.text-senha p {
+  font-size: 15px;
+  color: #0990ee;
+  margin: 16px 0px 27px 0px;
+}
+
+.btn-submit {
+  display: flex;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #0990ee;
+  width: 100%;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  transition: 2s;
+}
+.btn-submit:hover {
+  transition: 2s;
+  background-color: #2b3df1;
+}
+.logar-face {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  align-items: center;
+}
+.logar-face a {
+  text-decoration: none;
+}
+.logar-face p {
+  color: #0990ee;
+}
+.Logoface svg {
+  padding-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+.barra-or {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.barra-or p {
+  color: #d3d1d1;
+  padding: 10px;
+}
+.barra {
+  border-bottom: 1px solid #e6e4e4;
+  width: 50%;
+}
+.box-from {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid saddlebrown; */
+  height: 150px;
+}
+.inscreva-se {
+  display: flex;
+  justify-content: center;
+
+  color: #0990ee;
+  align-items: center;
+}
+.inscreva-se a {
+  text-decoration: none;
+  color: #0990ee;
+}
+.inscreva-se p {
+  padding-right: 10px;
+  color: #c9c6c6;
+}
+.from {
+  color: #c9c6c6;
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+  align-items: center;
+}
+/*
+   (#e09b3d, #c74c4d, #c21975, #7024c4);
+} */
+.gradient {
+  color: #0990ee;
+  font-size: 24px;
+}
+
+.image-web {
+  /* border: 1px solid green; */
+  display: flex;
+  width: 100%;
+  display: flex;
+
+  height: 97%;
+}

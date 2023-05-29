@@ -13,15 +13,15 @@ body {
   align-content: stretch;
   font-family: "Roboto", sans-serif;
 
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to bottom,
     #e09b3d,
     #c74c4d,
     #c21975,
     #7024c4
-  );
+  ); */
 
-  /* background-color: #f7f6f6; */
+  background-color: #f7f6f6;
 }
 .card-box {
   /* border: #2b3df1 1px solid; */
@@ -186,4 +186,7 @@ body {
   display: flex;
 
   height: 97%;
+}
+.selected {
+  font-weight: bold;
 }

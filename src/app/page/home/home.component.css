@@ -1,19 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   display: flex;
   border: 1px solid red;
   width: 100%;
+  height: 1000px;
 }
 .box-left {
   display: flex;
   border: 1px solid blue;
+  flex-direction: column;
+  padding: 0px 0px 0px 38px;
+  width: 18%;
 }
 .box-right {
   display: flex;
   border: 1px solid green;
+  height: 700px;
+  width: 100%;
   height: 100%;
-  width: 50%;
+  background-color: #f7f6f6;
 }
 .logo-topo img {
-  width: 200px;
-  height: 200px;
+  width: 164px;
+  height: 91px;
+}
+.btn-1 {
+  display: flex;
+  font-size: 23px;
 }

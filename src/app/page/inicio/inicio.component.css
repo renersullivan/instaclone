@@ -104,10 +104,12 @@ body {
   justify-content: center;
   align-items: center;
   transition: 2s;
+  cursor: pointer;
 }
 .btn-submit:hover {
   transition: 2s;
   background-color: #2b3df1;
+  cursor: pointer;
 }
 .logar-face {
   display: flex;

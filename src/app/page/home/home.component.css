@@ -25,10 +25,14 @@ body {
   background-color: #f7f6f6;
 }
 .logo-topo img {
-  width: 149px;
-  height: 66px;
+  padding: 23px 0px 11px 0px;
+  width: 119px;
+  height: 40px;
 }
 .btn-1 {
   display: flex;
-  font-size: 23px;
+  font-size: 19px;
+}
+.btn-1 p {
+  margin: 14px 0px;
 }

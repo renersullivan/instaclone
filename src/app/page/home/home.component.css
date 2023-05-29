@@ -32,7 +32,8 @@ body {
 .btn-1 {
   display: flex;
   font-size: 19px;
+  align-items: center;
 }
 .btn-1 p {
-  margin: 14px 0px;
+  margin: 14px 5px;
 }

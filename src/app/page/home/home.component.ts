@@ -13,12 +13,32 @@ export class HomeComponent implements OnInit {
 
   public openHomePage() {
     this.router.navigateByUrl('pageinicial');
+  }
+  public openReels() {
     this.router.navigateByUrl('reels');
+  }
+
+  public openPesquisa() {
     this.router.navigateByUrl('pesquisa');
+  }
+
+  public openPerfil() {
     this.router.navigateByUrl('perfil');
+  }
+
+  public openCriar() {
     this.router.navigateByUrl('criar');
+  }
+
+  public openNotificacoes() {
     this.router.navigateByUrl('notificacoes');
+  }
+
+  public openExplorar() {
     this.router.navigateByUrl('explorar');
+  }
+
+  public openMensagens() {
     this.router.navigateByUrl('mensagens');
   }
 }

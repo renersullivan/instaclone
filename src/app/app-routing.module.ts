@@ -20,14 +20,38 @@ const routes: Routes = [
     path: '',
     component: InicioComponent,
   },
-  { path: 'pageinicial', component: PaginaInicialComponent },
-  { path: 'explorar', component: ExplorarComponent },
-  { path: 'criar', component: CriarComponent },
-  { path: 'mensagens', component: MensagensComponent },
-  { path: 'notificacoes', component: NotificacoesComponent },
-  { path: 'perfil', component: PerfilComponent },
-  { path: 'pesquisa', component: PesquisaComponent },
-  { path: 'reels', component: ReelsComponent },
+  {
+    path: 'pageinicial',
+    component: PaginaInicialComponent,
+  },
+  {
+    path: 'explorar',
+    component: ExplorarComponent,
+  },
+  {
+    path: 'criar',
+    component: CriarComponent,
+  },
+  {
+    path: 'mensagens',
+    component: MensagensComponent,
+  },
+  {
+    path: 'notificacoes',
+    component: NotificacoesComponent,
+  },
+  {
+    path: 'perfil',
+    component: PerfilComponent,
+  },
+  {
+    path: 'pesquisa',
+    component: PesquisaComponent,
+  },
+  {
+    path: 'reels',
+    component: ReelsComponent,
+  },
 ];
 
 @NgModule({

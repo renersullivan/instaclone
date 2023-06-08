@@ -46,3 +46,7 @@ body {
   border-radius: 25px;
   padding: 0px 8px;
 }
+.btn-1 img {
+  width: 23px;
+  height: 23px;
+}

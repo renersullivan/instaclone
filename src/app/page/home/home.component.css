@@ -20,10 +20,10 @@ body {
 }
 .box-right {
   display: flex;
-  /* border: 1px solid green; */
+  border: 1px solid green;
   height: 700px;
   width: 100%;
-  height: 100%;
+ 
   background-color: #f7f6f6;
 }
 .logo-topo img {
@@ -50,14 +50,14 @@ body {
 .box-right {
   display: flex;
   flex-direction: column;
-  padding: 23px 350px;
+  padding: 23px 185px;
 }
 .scrollable-container {
   display: flex;
   flex-direction: row;
   overflow-x: scroll;
   white-space: nowrap;
-  width: 600px;
+  width:573px;
   height: 130px;
   border: 1px solid black;
   border-radius: 7px;

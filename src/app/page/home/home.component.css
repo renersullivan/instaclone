@@ -14,8 +14,8 @@ body {
   display: flex;
   /* border: 1px solid blue; */
   flex-direction: column;
-  padding: 0px 15px 0px 38px;
-  width: 18%;
+  padding: 0px 15px 0px 11px;
+  width: 24%;
   border-radius: 25px;
 }
 .box-right {
@@ -87,4 +87,9 @@ body {
   height: 750px;
   border: 1px solid black;
   border-radius: 7px;
+}
+.menu-card{
+  display: flex;
+  width: 208px;
+  flex-direction: column;
 }

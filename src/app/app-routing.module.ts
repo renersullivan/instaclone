@@ -21,7 +21,7 @@ const routes: Routes = [
     component: InicioComponent,
   },
   {
-    path: 'pageinicial',
+    path: 'home',
     component: PaginaInicialComponent,
   },
   {
